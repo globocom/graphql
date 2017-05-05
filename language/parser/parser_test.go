@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/graphql-go/graphql/gqlerrors"
-	"github.com/graphql-go/graphql/language/ast"
-	"github.com/graphql-go/graphql/language/location"
-	"github.com/graphql-go/graphql/language/printer"
-	"github.com/graphql-go/graphql/language/source"
+	"github.com/globocom/graphql/gqlerrors"
+	"github.com/globocom/graphql/language/ast"
+	"github.com/globocom/graphql/language/location"
+	"github.com/globocom/graphql/language/printer"
+	"github.com/globocom/graphql/language/source"
 )
 
 func TestBadToken(t *testing.T) {

@@ -4,10 +4,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/graphql-go/graphql"
-	"github.com/graphql-go/graphql/gqlerrors"
-	"github.com/graphql-go/graphql/language/location"
-	"github.com/graphql-go/graphql/testutil"
+	"github.com/globocom/graphql"
+	"github.com/globocom/graphql/gqlerrors"
+	"github.com/globocom/graphql/language/location"
+	"github.com/globocom/graphql/testutil"
 )
 
 func checkList(t *testing.T, testType graphql.Type, testData interface{}, expected *graphql.Result) {
